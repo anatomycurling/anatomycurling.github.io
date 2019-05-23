@@ -1,0 +1,113 @@
+body {
+	padding:0;
+	margin:0;
+     }
+
+header {
+	background:url(666.jpg) fixed no-repeat center top/ cover;
+        background-color: rgba(0,0,0,.7);
+        background-blend-mode: darken;
+        color: white;
+        padding-bottom: 5%;
+       }
+
+
+nav { background: rgba(255,255,255,1);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+nav ul { list-style: none;
+         margin: 0;
+         padding: 0;
+       }
+
+nav a { text-decoration: none;
+        outline: none;
+        display: block;
+        transition: .4s ease-in-out;
+      }
+.topmenu {
+  text-align: center;
+  padding: 3px 0;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relativ;
+}
+
+.topmenu > li > a {
+  padding: 12px 26px;
+  color: #424141;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Arial', sans-serif;
+}
+.topmenu li a:hover { color: #f20707; }
+
+
+
+/*section___________________________________________________________________*/
+
+.title {
+	padding-top: 24px;
+}
+
+.title h5 {
+	font-size: 400%;
+	font-weight: bold;
+	text-align: center;
+   
+        color: white;
+        font-family: 'Arial', sans-serif;
+        }
+
+.title p {
+	font-size: 120px;
+	color: #777777;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+
+/*footer________________________________________________________________________*/
+
+
+footer {
+	font-size: 14px;
+	padding: 5px;
+	text-align:center;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+       }
+
+/*word____________________________________________________________________*/
+
+
+.left {
+width: 230px;
+height: 360px;
+display: inline-block;
+margin-top: 150px;
+margin-left: 80px;
+vertical-align: text-top;
+
+}
+.left a {
+	font-size:25px;
+	text-align:left;
+        font-family: 'Century Gothic', sans-serif;
+        font-weight: bold;
+        color:white;
+	}
+.fo {display:block; margin:0 auto;}
+
+.left p {
+	font-size:20px;
+        letter-spacing: 0,5px;
+        font-family: 'Century Gothic', sans-serif;
+	}
+

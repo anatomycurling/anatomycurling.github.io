@@ -1,0 +1,241 @@
+body {
+	padding:0;
+	margin:0;
+     }
+
+header {
+	background:url(666.jpg) fixed no-repeat center top/ cover;
+        background-color: rgba(0,0,0,.6);
+        background-blend-mode: darken;
+        color: white;
+        padding-bottom: 20%;
+       }
+
+
+nav { background: rgba(255,255,255,1);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+nav ul { list-style: none;
+         margin: 0;
+         padding: 0;
+       }
+
+nav a { text-decoration: none;
+        outline: none;
+        display: block;
+        transition: .4s ease-in-out;
+      }
+.topmenu {
+  text-align: center;
+  padding: 3px 0;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relativ;
+}
+
+.topmenu > li > a {
+  padding: 12px 26px;
+  color: #424141;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Arial', sans-serif;
+}
+.topmenu li a:hover { color: #f20707; }
+
+
+
+/*section___________________________________________________________________*/
+
+.title {
+	padding-top: 24px;
+}
+
+.title h5 {
+	font-size: 400%;
+	font-weight: bold;
+	text-align: center;
+   
+        color: white;
+        font-family: 'Arial', sans-serif;
+        }
+
+.title p {
+	font-size: 120px;
+	color: #777777;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+
+/*footer________________________________________________________________________*/
+
+
+footer {
+	font-size: 14px;
+	padding: 5px;
+	text-align:center;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+       }
+
+
+/*historic____________________________________________________________________________*/
+
+.historic {
+	padding-top: 50px;
+        margin:10px;
+}
+
+.historic h2 {
+	font-size:35px;
+	font-weight: bolt;
+	text-align:left;
+        padding-left:260px;
+	}
+
+.historic p {
+	font-size:20px;
+	text-align:justify;
+        padding-left:30px;
+        padding-right:30px;
+	}
+.foto{
+float:right;
+margin: 4px 10px 2px 10px;
+height: 300px;
+}
+.foto1{
+float: left; /* Обтекание картинки по левому краю */
+    padding-right: 10px; /* Отступ слева */
+    padding-bottom: 10px;
+height: 300px;
+}
+.foto2{
+float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px;
+height: 300px;
+}
+
+/*game____________________________________________________________________________*/
+
+.game {
+	padding-top: 50px;
+        margin:10px;
+}
+
+.game h2 {
+	font-size:35px;
+	font-weight: bolt;
+	text-align:center;
+	}
+.game h1 {
+	font-size:25px;
+	font-weight: bolt;
+	text-align:center;
+	}
+.game a {
+	font-size:20px;
+	text-align:left;
+        padding-left:20px;
+        font-family: 'Arial', sans-serif;
+        color:white;
+	}
+.fo {display:block; margin:0 auto;}
+
+.game p {
+	font-size:20px;
+	text-align:center;
+        padding-left:200px;
+        padding-right:200px;
+	}
+
+/*team____________________________________________________________________________*/
+
+
+
+.services {
+	padding-top:200px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom:300px;
+}
+
+.services_item {
+	width: 300px;
+	float: left;
+	text-align: center;
+        color: white;
+}
+.services_item d{
+	width: 300px;
+	float: left;
+	text-align: center;
+        color: white;
+}
+
+.services_item h2 {
+	font-size: 25px;
+	
+}
+
+.services_item p{
+	font-size: 20px;
+	color: white;
+}
+
+.services_item:last-child {
+	float: right;
+}
+
+.services_item:nth-child(2){
+	padding-left: 150px;
+
+}
+
+
+
+/*entrance____________________________________________________________________________*/
+
+.title {
+	padding-top: 125px;
+}
+
+.title h2 {
+	font-size:30px;
+	font-weight: bolt;
+	text-align:center;
+        color:white;
+        font-family: 'Arial', sans-serif;
+	}
+.title p {
+	font-size: 120px;
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+}
+
+/*регистрация____________________________________________________________________________*/
+
+.title2 {
+	padding-top: 40px;
+}
+.title2 p {
+        text-align: center;
+	font-size:40px;
+	font-weight: bolt;
+	}
+
+.title2 h2 {
+	font-size:30px;
+	font-weight: bolt;
+	text-align:left;
+        padding-left:15px;
+	}
+
