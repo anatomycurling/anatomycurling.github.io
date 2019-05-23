@@ -1,6 +1,7 @@
 body {
 	padding:0;
 	margin:0;
+	font-family:Arial;
      }
 
 header {
@@ -110,11 +111,11 @@ footer {
          left:47%;
         
         position: relative;
-        margin-left: 18px; /*расстояние между точками*/
+        margin-left: 18px; /*Г°Г Г±Г±ГІГ®ГїГ­ГЁГҐ Г¬ГҐГ¦Г¤Гі ГІГ®Г·ГЄГ Г¬ГЁ*/
         top: 90%;    
     }
 
-    .slide  input:checked + label /*подсветка меню слайдера*/
+    .slide  input:checked + label /*ГЇГ®Г¤Г±ГўГҐГІГЄГ  Г¬ГҐГ­Гѕ Г±Г«Г Г©Г¤ГҐГ°Г */
     {
         background: rgba(220, 220, 220, 0.8);
     }
